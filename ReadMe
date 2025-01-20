@@ -1,0 +1,8 @@
+Speech assistant application with Python using speech recognition library, Google text to speech 
+and other packages - PyAudio
+
+pip install SpeechRecognition
+pip install pyaudio
+pip install gTTS
+pip install playsound
+pip install PyObjC
