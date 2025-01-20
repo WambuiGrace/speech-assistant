@@ -12,10 +12,10 @@ def get_audio(ask = False):
     with sr.Microphone() as source:
         if ask:
             speak(ask)
-        audio = r.listen(source)# listen for audio 
+        audio = r.listen(source) 
         voice = ""
         try:
-            voice = r.recognize_google(audio) # recognize the audio using Google Speech Recognition       
+            voice = r.recognize_google(audio)       
         except sr.UnknownValueError:
             speak("Could not understand audio")
             speak("Could not understand audio")
